@@ -13,7 +13,7 @@ let parson={
     age:23, //number
     homeTown:'chittagong',
     married:false, //Bolean
-    date:new Date(), //date
+    date:1-2-2023, //date
     test_null:null, //null
     test_undefined:undefined, //undefined
     greet:function(){//function
@@ -21,3 +21,6 @@ let parson={
     }
 }
 parson.greet();
+
+let parson_json=JSON.stringify(parson)
+console.log(parson_json)
